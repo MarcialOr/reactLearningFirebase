@@ -6,6 +6,7 @@ import ProjectDetails from "./components/projects/ProjectDetails";
 import SignIn from "./components/auth/SignIn";
 import SignUp from "./components/auth/SignUp";
 import Createproject from "./components/projects/Createproject";
+import YoutubeHome from "./components/youtube/YoutubeHome";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/signin' component={SignIn} />
           <Route path='/signup' component={SignUp} />
           <Route path='/create' component={Createproject} />
+          <Route path='/youtube' component={YoutubeHome} />
 
         </Switch>
       </div>

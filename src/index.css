@@ -18,3 +18,17 @@ form {
   margin-top: 60px;
 }
 
+.container-video {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-gap: 100px;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]){
+  border-color: #ec407a;
+  box-shadow: none;
+}
+
